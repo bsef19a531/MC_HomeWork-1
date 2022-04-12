@@ -70,6 +70,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#create-repo">Creating New Repository</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#git-cmds">Github Commands</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -157,7 +160,68 @@
                 <li>After choosing all required options, click on <code>create repository</code> button</li>
             </ul>
             <img src="Images/create-repo-form.PNG" class="page-images">
+            <ul>
+                <li>Then, you will be redirected to the page shown below.</li>
+                <li>You can choose Either Https or SSH method to host your code.</li>
+                <li>You will be given three options where you can select to either create a new repository by using
+                    command line, This can be done by running the command given in the section on
+                    the <code>gitbash commandline</code>.</li>
+                <li>Second You can push an existing repository from your local machine to Github, The procedure is
+                    similar just paste the commands given in section in <code>gitbash commandline</code>. </li>
+                <li>Third you can import can import code from another hosted repository by following the same procedure.
+                </li>
+            </ul>
 
+            <img src="Images/create-repo-codes.PNG" class="page-images">
+
+            <ul>
+                <li>You are all set now, by following any of the method your desired repository will be created.</li>
+                <li>You can then see your files hosted in your github repository with all the details as shown below:
+                </li>
+            </ul>
+            <img src="Images/repo-layout.PNG" class="page-images">
+        </div>
+    </section>
+    <section id="git-cmds">
+        <div>
+            <ul>
+                <li>
+                    <h2>Basic Important Git Commands:</h2>
+                </li>
+            </ul>
+            <p>
+                Here are some important git command which are used to push files to github.
+            </p>
+            <ul>
+                <li>
+                    <code><b>sit status</b></code>
+                    - to check the status of the repository (Git repository or not and files which are being tracked)
+                </li>
+                <li>
+                    <code><b>git init</b></code>
+                    - to initialize a git repository
+                </li>
+                <li>
+                    <code><b>git add --all</b></code>
+                    - to add all files in git repository for stagging
+                </li>
+                <li>
+                    <code><b>git commit -a -m "Type msg here"</b></code>
+                    - to commit all the stagged files with a short message
+                </li>
+                <li>
+                    <code><b>git log</b></code>
+                    - to check the details of commits done on a git repository
+                </li>
+                <li>
+                    <code><b>git remote </b></code>
+                    - to check the linked remote repository with the local repository
+                </li>
+                <li>
+                    <code><b>git push -u origin master </b></code>
+                    - to push git repository code to the master branch of the remote repository
+                </li>
+            </ul>
         </div>
     </section>
 </body>
