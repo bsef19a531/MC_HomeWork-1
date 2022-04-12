@@ -10,12 +10,18 @@
 }
 
 body {
-    background-color: var(--main_color);
+    background: var(--main_color);
+}
+
+header {
+    background: var(--main_color);
+
 }
 
 h1,
 h2,
-p {
+p,
+li {
     font-family: 'Roboto Mono', monospace;
     color: var(--secondary_color);
 }
@@ -57,4 +63,26 @@ p {
 #navbar-brand-logo {
     height: 50px;
     background: var(--secondary_color);
+}
+
+main {
+    background: var(--main_color);
+}
+
+section div {
+    background: var(--main_color);
+    padding: 20px;
+
+}
+
+#intro-para {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.page-images {
+    width: 100%;
+    height: auto;
+    border: 2px var(--secondary_color) solid;
 }
