@@ -59,6 +59,8 @@ li {
     font-family: 'Roboto Mono', monospace;
     color: var(--main_color) !important;
     font-size: 20px;
+    /* padding: 1px; */
+    margin: 1px;
 }
 
 #navbar-brand-logo {
